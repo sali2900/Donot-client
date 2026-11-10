@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "donotclient",
+  "version": "${version}",
+  "name": "DoNot Client",
+  "description": "Custom client mod with a Right-Shift menu interface.",
+  "authors": [
+    "Developer"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.donot.client.DonotClient"
+    ],
+    "client": [
+      "com.donot.client.DonotClientClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
